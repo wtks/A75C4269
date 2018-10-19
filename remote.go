@@ -5,18 +5,24 @@ const (
 	PowerOn
 	PowerOnAndOffTimer
 	PowerOffAndOnTimer
+)
 
+const (
 	ModeCooler byte = iota
 	ModeHeater
 	ModeDehumidifier
+)
 
+const (
 	WindDirectionAuto byte = iota
 	WindDirection1
 	WindDirection2
 	WindDirection3
 	WindDirection4
 	WindDirection5
+)
 
+const (
 	AirVolumeAuto byte = iota
 	AirVolumeStill
 	AirVolume1
